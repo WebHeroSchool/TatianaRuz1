@@ -1,0 +1,171 @@
+body{
+	margin: 0;
+}
+
+.header{
+	padding: 24px 0 51px;
+}
+
+.wrapper{
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 84px;
+}
+
+.header__logo{
+	margin: 0 0 0 3%;
+	width: 166px;
+	height: 51px;
+	background: url(image/Tesla-logo.svg);
+}
+
+.menu__item{
+	font: 600 15px/18px montserratsemibold, arial, sans-serif;
+	color: #000;
+	text-decoration: none;
+	padding-right: 35px;
+}
+
+.menu__item:last-child{
+	padding-right: 0;
+}
+
+.menu__item-add{
+	font: 600 15px/18px montserratsemibold, arial, sans-serif;
+	color: #000;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+#burger-menu__toggle{
+  opacity: 0;
+}
+
+#burger-menu__toggle:checked ~ .burger-menu__btn > span{
+  transform: rotate(45deg);
+}
+#burger-menu__toggle:checked ~ .burger-menu__btn > span::before{
+  top: 0;
+  transform: rotate(0);
+}
+#burger-menu__toggle:checked ~ .burger-menu__btn > span::after{
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.burger-menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 42px;
+  right: 60px;
+  width: 24px;
+  height: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.burger-menu__btn > span,
+.burger-menu__btn > span::before,
+.burger-menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #E51937;
+  transition-duration: .25s;
+}
+.burger-menu__btn > span::before {
+ 	content: '';
+ 	top: -6px;
+}
+.burger-menu__btn > span::after {
+ 	content: '';
+  top: 6px;
+}
+
+
+
+.section1__background-opacity{
+	position: absolute;
+	top: 134px;
+	height: 350px;
+	width: 100%;
+	background:	url(image/Tesla-logo.svg) no-repeat top right;
+	background-size: 107%;
+	opacity: .1;
+}
+
+.section1__title{
+	margin: 0;
+	font: 600 90px/90px montserratsemibold, arial, sans-serif;
+	color: #000;
+	text-align: center;
+}
+
+.section1__subtitle{
+	margin: 0;
+	font: 500 15px/18px montserratmedium, arial, sans-serif;
+	text-align: center;
+}
+
+.section1__image{
+	height: 450px;
+	background: url(image/tesla-png-tesla-png-hd-1636.png) no-repeat center;
+}
+
+
+.section1__container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 22%;
+	height: 154px;
+}
+
+.section1__container-racing{
+	background: url(image/racing.png) no-repeat left;
+}
+
+.section1__container-power-reserve{
+	background: url(image/power-reserve.png) no-repeat left;
+}
+
+.section1__container-test-drive{
+	background: url(image/test-drive.png) no-repeat left;
+}
+
+.section1__container-racing p{
+	padding-left: 60px;
+	margin: 0;
+}
+.section1__container-power-reserve p{
+	padding-left: 42px;
+	margin: 0;
+}
+.section1__container-test-drive p{
+	padding: 10px 0 10px 29px;
+	margin: 0;
+}
+
+.section1__container-info span{
+	font: 600 35px/43px montserratsemibold, arial, sans-serif;
+}
+
+.section1__container-info{
+	font: 500 20px/24px montserratsemibold, arial, sans-serif;
+}
+
+.section1__container-info-add{
+	font: 12px/15px montserratregular, arial, sans-serif;
+}
+
+
+.section1__container-button{
+	font: 13px/15px montserratbold, arial, sans-serif;
+	color: #E51937;
+	text-decoration: none;
+	padding: 12px 40px;
+	border: 2px solid #E51937;
+}
