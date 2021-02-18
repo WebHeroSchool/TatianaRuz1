@@ -10,52 +10,54 @@
 </head>
 
 <body>
+	
 	<header class="header">
-		<div class="header__logo">
-			<!--тут скорее всего будет логотип background-->
-		</div>
-		<nav class="menu">
-			<a class="menu__item" href="">Model S</a>
-			<a class="menu__item" href="">Model X</a>
-			<a class="menu__item" href="">Model 3</a>
-			<a class="menu__item" href="">Roadster</a>
-			<a class="menu__item" href="">Energy</a>
-		</nav>
-		<div>
-			<a href="">Магазин</a>
-			<a href="">Войти</a>
-			<div class="hamburger-menu">
-				<!-- тут будет знак бургер-меню-->
+  	<div class="wrapper">
+			<div class="header__logo">
 			</div>
+			<nav class="menu">
+        <a class="menu__item" href="">Model S</a>
+			  <a class="menu__item" href="">Model X</a>
+			  <a class="menu__item" href="">Model 3</a>
+			  <a class="menu__item" href="">Roadster</a>
+			  <a class="menu__item" href="">Energy</a>
+    	</nav>
+    	<div>
+			  <a class="menu__item-add" href="">Магазин</a>
+			  <a class="menu__item-add" href="">Войти</a>
+			</div>
+  	</div>
+		<div class="burger-menu">
+			<input id="burger-menu__toggle" type="checkbox" />
+    	<label class="burger-menu__btn" for="burger-menu__toggle">
+     		<span></span>
+    	</label>
 		</div>
 	</header>
 
 	<section class="section1">
-		<!--тут скорее всего будет логотип background-->
 		<h1 class="section1__title">Model S</h1>
 		<p class="section1__subtitle">Добро пожаловать в будущее!</p>
 		<div class="section1__image">
-			<!--тут будет машинка background или лучше встатить через img?-->
 		</div>
 		<div class="section1__container">
 			<div class="section1__container-racing">
-				<!--тут будет картинка через background-->
-				<p><span>2,7 </span>сек</p>
-				<p>0-100 км/час</p>
+				<p class="section1__container-info"><span>2,7 </span>сек</p>
+				<p class="section1__container-info-add">0-100 км/час</p>
 			</div>
 			<div class="section1__container-power-reserve">
-				<!--тут будет картинка через background-->
-				<p><span>632 </span>км</p>
-				<p>запас хода</p>
+				<p class="section1__container-info"><span>632 </span>км</p>
+				<p class="section1__container-info-add">запас хода</p>
 			</div>
 			<div class="section1__container-test-drive">
-				<!--тут будет картинка через background-->
 				<p>Тест драйв</p>
 			</div>
 			<a class="section1__container-button" href="">Заказать</a>
 		</div>
 		<div class="section1__arrow">
 			<!--тут будет стрелочка через background-->
+		</div>
+		<div class="section1__background-opacity">
 		</div>
 	</section>
 
@@ -67,7 +69,7 @@
 			<p class="section2__subtitle">Модель S обладает лучшей в&nbsp;своем классе вместимостью: в&nbsp;машине поместится до&nbsp;пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со&nbsp;студией звукозаписи, а&nbsp;стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
 			<div class="section2__display">
 				<!--тут будет картинка через background-->
-				<p class="section2__display-size"><span class="section2__display-size-span">17 </span>дюймов</p>
+				<p class="section2__display-size"><span>17 </span>дюймов</p>
 				<p class="section2__display-size-what">Большой дисплей</p>
 			</div>
 			<div class="section2__software">
@@ -77,7 +79,7 @@
 			</div>
 			<div class="section2__capacity">
 				<!--тут будет картинка через background-->
-				<p class="section2__capacity-size"><span class="section2__capacity-size-span">894 </span>литра</p>
+				<p class="section2__capacity-size"><span>894 </span>литра</p>
 				<p class="section2__capacity-size-what">Объем грузового пространства</p>
 			</div>
 			<div class="section2__container">
@@ -118,7 +120,7 @@
 			</div>
 			<div class="section3__stars">
 				<!--тут будет картинка через background-->
-				<p class="section3__stars-text"><span class="section3__stars-text-span">5 звезд</span>безопасности</p>
+				<p class="section3__stars-text"><span>5 звезд</span>безопасности</p>
 			</div>
 			<div class="section3__container">
 				<div class="section3__container-info">
