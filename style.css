@@ -2,6 +2,7 @@ body{
 	margin: 0;
 }
 
+
 .header{
 	padding: 24px 0 24px;
 	background:	url(image/burger.png) no-repeat right;
@@ -16,7 +17,7 @@ body{
 }
 
 .header__logo{
-	margin: 0 0 0 3%;
+	margin: 0 1% 0 3%;
 	width: 166px;
 	height: 51px;
 	background: url(image/Tesla-logo.svg);
@@ -24,13 +25,26 @@ body{
 
 .menu__item, .menu__item-add{
 	position:relative;
-	font: 600 15px/18px montserrat, arial, sans-serif;
+	font: 600 15px/18px montserratsemibold, montserrat, arial, sans-serif;
 	color: #000;
 	text-decoration: none;
 }
 
-.menu__item{
-	margin-right: 41px;
+.menu{
+	margin: 0 22px 0 60px;
+}
+
+.menu__item1{
+	margin-right: 63px;
+}
+.menu__item2{
+	margin-right: 25px;
+}
+.menu__item3{
+	margin-right: 44px;
+}
+.menu__item4{
+	margin-right: 46px;
 }
 
 .menu__item:last-child{
@@ -63,22 +77,24 @@ body{
 
 
 
+
+
+
 .section1{
 	padding-top: 15px;
-	background:	url(image/Tesla-Wordmark-Red.svg) no-repeat top right;
-	background-size: 100%;
+	background:	url(image/Tesla-Wordmark-Red.svg) no-repeat top;
 }
 
 .section1__title{
 	margin: 0;
-	font: 600 90px/90px montserrat, arial, sans-serif;
+	font: 600 90px/90px montserratsemibold, montserrat, arial, sans-serif;
 	color: #000;
 	text-align: center;
 }
 
 .section1__subtitle{
 	margin: 0 0 32px;
-	font: 500 15px/18px montserrat, arial, sans-serif;
+	font: 500 15px/18px montserratmedium, montserrat, arial, sans-serif;
 	text-align: center;
 }
 
@@ -98,15 +114,17 @@ body{
 }
 
 .section1__container-racing{
-	background: url(image/racing.png) no-repeat left;
+	background: url(image/racing.png) no-repeat center left;
+	padding-right: 40px;
 }
 
 .section1__container-power-reserve{
-	background: url(image/power-reserve.png) no-repeat left;
+	background: url(image/power-reserve.png) no-repeat center left;
+	padding-right: 60px;
 }
 
 .section1__container-test-drive{
-	background: url(image/test-drive.png) no-repeat left;
+	background: url(image/test-drive.png) no-repeat center left;
 }
 
 .section1__container-racing p{
@@ -120,28 +138,36 @@ body{
 .section1__container-test-drive p{
 	padding: 10px 0 10px 29px;
 	margin: 0;
-	font: 13px/15px montserrat, arial, sans-serif;
+	font: 700 13px/15px montserratbold, montserrat, arial, sans-serif;
+	text-transform: uppercase;
 }
 
 .section1__container-info span{
-	font: 600 35px/43px montserrat, arial, sans-serif;
+	font: 600 35px/43px montserratsemibold, montserrat, arial, sans-serif;
 }
 
 .section1__container-info{
-	font: 500 20px/24px montserrat, arial, sans-serif;
+	font: 500 20px/24px montserratsemibold, montserrat, arial, sans-serif;
 }
 
 .section1__container-info-add{
-	font: 12px/15px montserrat, arial, sans-serif;
+	font: 12px/15px montserratregular, montserrat, arial, sans-serif;
 }
 
 
 .section1__container-button{
-	font: 13px/15px montserrat, arial, sans-serif;
+	font: 700 13px/15px montserratbold, montserrat, arial, sans-serif;
 	color: #E51937;
 	text-decoration: none;
 	padding: 12px 40px;
 	border: 2px solid #E51937;
+}
+
+.section1__container-button:hover{
+	background: #E51937;
+	color: #FFF;
+	text-decoration: none;
+	border: 2px solid #FFF;
 }
 
 .section1__arrow{
@@ -150,4 +176,6 @@ body{
 }
 
 
-.section2__display-size
+.section2__display-size{
+	font: 20px/24px montserrat, arial, sans-serif;
+}
