@@ -1,61 +1,63 @@
-body{
+body {
 	margin: 0;
 }
 
-
-.header{
+.header {
 	padding: 24px 0 24px;
 	background:	url(image/burger.png) no-repeat right;
-	margin: 0 60px 34px 0; 
+	margin: 0 60px 34px 0;
 }
 
-.wrapper{
+.wrapper {
   display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-right: 24px;
 }
 
-.header__logo{
+.header__logo {
 	margin: 0 1% 0 3%;
 	width: 166px;
 	height: 51px;
 	background: url(image/Tesla-logo.svg);
 }
 
-.menu__item, .menu__item-add{
+.menu__item, .menu__item-add {
 	position:relative;
 	font: 600 15px/18px montserratsemibold, montserrat, arial, sans-serif;
 	color: #000;
 	text-decoration: none;
 }
 
-.menu{
+.menu {
 	margin: 0 22px 0 60px;
 }
 
-.menu__item1{
+.menu__item1 {
 	margin-right: 63px;
 }
-.menu__item2{
+
+.menu__item2 {
 	margin-right: 25px;
 }
-.menu__item3{
+
+.menu__item3 {
 	margin-right: 44px;
 }
-.menu__item4{
+
+.menu__item4 {
 	margin-right: 46px;
 }
 
-.menu__item:last-child{
+.menu__item:last-child {
 	margin-right: 0;
 }
 
-.menu__item-add{
+.menu__item-add {
 	margin-right: 30px;
 }
 
-.menu__item:after, .menu__item-add:after{
+.menu__item:after, .menu__item-add:after {
   position:absolute;
   left: 0;
   display: block;
@@ -67,7 +69,7 @@ body{
   transition: opacity .5s;
 }
 
-.menu__item:hover, .menu__item-add:hover{
+.menu__item:hover, .menu__item-add:hover {
 	color:#E51937;
 }
 
@@ -80,32 +82,31 @@ body{
 
 
 
-.section1{
+.section1 {
 	padding-top: 15px;
 	background:	url(image/Tesla-Wordmark-Red.svg) no-repeat top;
 }
 
-.section1__title{
+.section1__title {
 	margin: 0;
-	font: 600 90px/90px montserratsemibold, montserrat, arial, sans-serif;
+	font: 600 90px montserratsemibold, montserrat, arial, sans-serif;
 	color: #000;
 	text-align: center;
 }
 
-.section1__subtitle{
+.section1__subtitle {
 	margin: 0 0 32px;
 	font: 500 15px/18px montserratmedium, montserrat, arial, sans-serif;
 	text-align: center;
 }
 
-.section1__image{
+.section1__image {
 	margin-right: 5%;
 	height: 430px;
 	background: url(image/tesla-png-tesla-png-hd-1636.png) no-repeat center;
 }
 
-
-.section1__container{
+.section1__container {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -113,69 +114,273 @@ body{
 	height: 132px;
 }
 
-.section1__container-racing{
+.section1__container-racing {
 	background: url(image/racing.png) no-repeat center left;
 	padding-right: 40px;
 }
 
-.section1__container-power-reserve{
+.section1__container-power-reserve {
 	background: url(image/power-reserve.png) no-repeat center left;
 	padding-right: 60px;
 }
 
-.section1__container-test-drive{
+.section1__container-test-drive {
 	background: url(image/test-drive.png) no-repeat center left;
 }
 
-.section1__container-racing p{
+.section1__container-racing p {
 	padding-left: 60px;
 	margin: 0;
 }
-.section1__container-power-reserve p{
+
+.section1__container-power-reserve p {
 	padding-left: 42px;
 	margin: 0;
 }
+
 .section1__container-test-drive p{
-	padding: 10px 0 10px 29px;
+	padding: 13px 0 10px 29px;
 	margin: 0;
-	font: 700 13px/15px montserratbold, montserrat, arial, sans-serif;
+	font: 700 13px/16px montserratbold, montserrat, arial, sans-serif;
 	text-transform: uppercase;
 }
 
-.section1__container-info span{
+.section1__container-info span {
 	font: 600 35px/43px montserratsemibold, montserrat, arial, sans-serif;
 }
 
-.section1__container-info{
+.section1__container-info {
 	font: 500 20px/24px montserratsemibold, montserrat, arial, sans-serif;
 }
 
-.section1__container-info-add{
+.section1__container-info-add, .section2__text-info-add {
 	font: 12px/15px montserratregular, montserrat, arial, sans-serif;
+	margin:0;
 }
 
-
-.section1__container-button{
-	font: 700 13px/15px montserratbold, montserrat, arial, sans-serif;
+.section1__container-button {
+	font: 700 13px/16px montserratbold, montserrat, arial, sans-serif;
 	color: #E51937;
 	text-decoration: none;
-	padding: 12px 40px;
+	padding: 11px 42px;
 	border: 2px solid #E51937;
+	text-transform: uppercase;
 }
 
-.section1__container-button:hover{
+.section1__container-button:hover {
 	background: #E51937;
 	color: #FFF;
 	text-decoration: none;
 	border: 2px solid #FFF;
 }
 
-.section1__arrow{
+.section1__arrow {
 	height: 14px;
 	background: url(image/arrow.png) center no-repeat;
+	margin-bottom: 37px;
 }
 
 
-.section2__display-size{
-	font: 20px/24px montserrat, arial, sans-serif;
+
+
+
+.section2 {
+	display: flex;
+	justify-content: space-between;
+	background: url(image/2013-tesla-model-s-cockpit.png) no-repeat left bottom;
+}
+
+.section2__title-left {
+	font: 600 70px/85px montserratsemibold, montserrat, arial, sans-serif;
+	margin:65px 0 0 80px;
+	color: #E51937;
+}
+
+.section2__right {
+	width: 440px;
+	background: #E51937;
+	color: #FFF;
+	padding: 51px 45px 0 52px;
+	box-sizing: border-box;
+}
+
+.section2__title {
+	font: 600 30px/37px montserratsemibold, montserrat, arial, sans-serif;
+	margin: 0 0 11px;
+}
+
+.section2__subtitle {
+	font: 500 15px/18px montserratmedium, montserrat, arial, sans-serif;
+	margin: 0 25px 67px 0;
+}
+
+.section2__display {
+	background: url(image/display.png) no-repeat center left;
+	padding: 0 0 13px 55px;
+	margin-bottom: 35px;
+}
+
+.section2__software {
+	background: url(image/software.png) no-repeat center left;
+	padding: 0 0 0 60px;
+	margin-bottom: 29px;
+}
+
+.section2__capacity {
+	background: url(image/capacity.png) no-repeat center left;
+	padding: 0 0 0 58px;
+	margin-bottom: 171px;
+}
+
+.section2__text-info span {
+	font: 600 35px/36px montserratsemibold, montserrat, arial, sans-serif;
+	margin:0;
+}
+
+.section2__text-info{
+	font: 600 20px montserratsemibold, montserrat, arial, sans-serif;
+	margin:0;
+}
+
+.section2__text-soft{
+	font: 600 20px/18px montserratsemibold, montserrat, arial, sans-serif;
+	margin:0;
+}
+
+.section2__container, .section3__container {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 60px;
+}
+
+.section2__container-info {
+	background: url(image/i.png) no-repeat center left;
+}
+
+.section2__container-button {
+	text-decoration: none;
+	padding: 11px 40px;
+	color: #FFF;
+	border: 2px solid #FFF;
+	font: 700 13px/16px montserratbold, montserrat, arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.section2__container-info p {
+	padding: 13px 0 10px 29px;
+	margin: 0;
+	font: 700 13px/16px montserratbold, montserrat, arial, sans-serif;
+	text-transform: uppercase;
+}
+
+
+
+
+.section3 {
+	display: flex;
+	justify-content: space-between;
+	width: 100.5%;
+	position: relative;
+}
+
+.section3__right {
+	font: 600 200px montserratsemibold, montserrat, arial, sans-serif;
+	color: #E51937;
+	opacity: 0.1;
+	margin: 128px 0 525px;
+}
+
+.section3__image {
+position: absolute;
+background: url(image/Car_frame_group.png) no-repeat;
+width: 1049px;
+height: 100%;
+right: 0;
+margin: 175px 53px 0 0;
+}
+
+.section3 img{
+	 margin-left: 86%
+}
+
+.section3__left {
+	width: 440px;
+	background: #E51937;
+	color: #FFF;
+	padding: 55px 55px 0 40px;
+	box-sizing: border-box;
+}
+
+.section3__wrapper{
+	padding-left: 15px;
+}
+
+.section3__title {
+	font: 600 30px/37px montserratsemibold, montserrat, arial, sans-serif;
+	margin: 0 0 11px;
+}
+
+.section3__subtitle {
+	font: 500 15px/18px montserratmedium, montserrat, arial, sans-serif;
+	margin: 0 0 57px;
+}
+
+.section3__rating {
+	border-spacing: 2px 11px;
+	margin-bottom: 90px;
+}
+
+.section3__rating-text {
+	font: 700 17px/21px montserratbold, montserrat, arial, sans-serif;
+	padding: 0 31px 0 0;
+}
+
+.section3__rating-text span {
+	font: 700 10px/12px montserratbold, montserrat, arial, sans-serif;
+}
+
+.section3__stars{
+	background: url(image/shield.png) no-repeat left;
+	padding-left: 85px;
+	margin: 0 0 55px 10px; 
+}
+
+.section3__stars-text span {
+	font: 600 50px/52px montserratsemibold, montserrat, arial, sans-serif;
+}
+
+.section3__stars-text {
+	font: 600 25px/30px montserratsemibold, montserrat, arial, sans-serif;
+}
+
+.section3__img {
+	width: 25px;
+	height: 25px;
+	background: url(image/Star.png) no-repeat;
+}
+
+.section3__container {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 60px;
+}
+
+.section3__container-info {
+	background: url(image/i.png) no-repeat center left;
+}
+
+.section3__container-info p {
+	padding: 13px 0 10px 29px;
+	margin: 0;
+	font: 700 13px/16px montserratbold, montserrat, arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.section3__container-button {
+	text-decoration: none;
+	padding: 11px 40px;
+	color: #FFF;
+	border: 2px solid #FFF;
+	font: 700 13px/16px montserratbold, montserrat, arial, sans-serif;
+	text-transform: uppercase;
 }
