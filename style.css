@@ -22,8 +22,9 @@ body {
   background: url(image/Tesla-logo.svg);
 }
 
-.menu__item, .menu__item-add {
-  position:relative;
+.menu__item,
+.menu__item-add {
+  position: relative;
   font: 600 15px/18px montserratsemibold, montserrat, arial, sans-serif;
   color: #000;
   text-decoration: none;
@@ -57,8 +58,9 @@ body {
   margin-right: 30px;
 }
 
-.menu__item:after, .menu__item-add:after {
-  position:absolute;
+.menu__item::after,
+.menu__item-add::after {
+  position: absolute;
   left: 0;
   display: block;
   content: "";
@@ -69,11 +71,15 @@ body {
   transition: opacity .5s;
 }
 
-.menu__item:hover, .menu__item-add:hover {
-  color:#E51937;
+.menu__item:hover,
+.menu__item-add:hover {
+  color: #E51937;
 }
 
-.menu__item:hover:after, .menu__item:active:after, .menu__item-add:hover:after, .menu__item-add:active:after {
+.menu__item:hover:after,
+.menu__item:active:after,
+.menu__item-add:hover:after,
+.menu__item-add:active:after {
   opacity: 1;
 }
 
@@ -138,7 +144,7 @@ body {
   margin: 0;
 }
 
-.section1__container-test-drive p{
+.section1__container-test-drive p {
   padding: 13px 0 10px 29px;
   margin: 0;
   font: 700 13px/16px montserratbold, montserrat, arial, sans-serif;
@@ -153,9 +159,10 @@ body {
   font: 500 20px/24px montserratsemibold, montserrat, arial, sans-serif;
 }
 
-.section1__container-info-add, .section2__text-info-add {
+.section1__container-info-add,
+.section2__text-info-add {
   font: 12px/15px montserratregular, montserrat, arial, sans-serif;
-  margin:0;
+  margin: 0;
 }
 
 .section1__container-button {
@@ -170,7 +177,6 @@ body {
 .section1__container-button:hover {
   background: #E51937;
   color: #FFF;
-  text-decoration: none;
   border: 2px solid #FFF;
 }
 
@@ -192,7 +198,7 @@ body {
 
 .section2__title-left {
   font: 600 70px/85px montserratsemibold, montserrat, arial, sans-serif;
-  margin:65px 0 0 80px;
+  margin: 65px 0 0 80px;
   color: #E51937;
 }
 
@@ -234,20 +240,21 @@ body {
 
 .section2__text-info span {
   font: 600 35px/36px montserratsemibold, montserrat, arial, sans-serif;
-  margin:0;
+  margin: 0;
 }
 
-.section2__text-info{
+.section2__text-info {
   font: 600 20px montserratsemibold, montserrat, arial, sans-serif;
-  margin:0;
+  margin: 0;
 }
 
-.section2__text-soft{
+.section2__text-soft {
   font: 600 20px/18px montserratsemibold, montserrat, arial, sans-serif;
-  margin:0;
+  margin: 0;
 }
 
-.section2__container, .section3__container {
+.section2__container,
+.section3__container {
   display: flex;
   justify-content: space-between;
   padding-bottom: 60px;
@@ -286,7 +293,7 @@ body {
 .section3__right {
   font: 600 200px montserratsemibold, montserrat, arial, sans-serif;
   color: #E51937;
-  opacity: 0.1;
+  opacity: .1;
   margin: 128px 0 525px;
 }
 
@@ -299,8 +306,8 @@ right: 0;
 margin: 175px 53px 0 0;
 }
 
-.section3 img{
-   margin-left: 86%
+.section3 img {
+   margin-left: 86%;
 }
 
 .section3__left {
@@ -311,7 +318,7 @@ margin: 175px 53px 0 0;
   box-sizing: border-box;
 }
 
-.section3__wrapper{
+.section3__wrapper {
   padding-left: 15px;
 }
 
@@ -339,7 +346,7 @@ margin: 175px 53px 0 0;
   font: 700 10px/12px montserratbold, montserrat, arial, sans-serif;
 }
 
-.section3__stars{
+.section3__stars {
   background: url(image/shield.png) no-repeat left;
   padding-left: 85px;
   margin: 0 0 55px 10px; 
@@ -383,4 +390,35 @@ margin: 175px 53px 0 0;
   border: 2px solid #FFF;
   font: 700 13px/16px montserratbold, montserrat, arial, sans-serif;
   text-transform: uppercase;
+}
+
+.section2__container-button:hover,
+.section3__container-button:hover {
+  background: #FFF;
+  color: #E51937;
+}
+
+@media (min-width: 1500px) {
+  body {
+    margin: 0 5%;
+  }
+}
+
+@media (min-width: 1800px) {
+  body {
+    margin: 0 10%;
+  }
+}
+
+
+@media (min-width: 2100px) {
+  body {
+    margin: 0 15%;
+  }
+}
+
+@media (min-width: 2300px) {
+  body {
+    margin: 0 20%;
+  }
 }
