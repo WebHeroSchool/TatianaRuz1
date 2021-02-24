@@ -542,7 +542,6 @@ body {
   padding: 65px 4.5% 0;
 }
 
-
 .section3__wrapper {
   display: flex;
   width: 100%;
@@ -551,7 +550,6 @@ body {
   padding-left: 0;
 }
 
-
 .section3__wrapper-right{
   flex-basis: 295px;
   margin-right: 5%;
@@ -559,8 +557,8 @@ body {
 
 .section3__wrapper-left{
   width: 45%;
-  
 }
+
 .section3__title,
 .section3__subtitle,
 .section3__title-rating,
@@ -570,7 +568,6 @@ body {
 
 .section3__subtitle {
   padding: 17px 0 0;
-  
 }
 
 .section3__container{
@@ -603,10 +600,11 @@ body {
   margin: 0;
 }
 
-.section2__container-ipad-left{
+.section2__container-ipad-left {
   width: 48%;
 }
-.section2__container-ipad-right{
+
+.section2__container-ipad-right {
   width: 40%;
 }
 
@@ -658,14 +656,12 @@ body {
   padding-right: 5%;
 }
 
-
 .section2__title-left {
    background: url(image/2013-tesla-model-s-cockpit_768.png) no-repeat left bottom;
    height: 600px;
    background-size: 100%;
 }
 }
-
 
 @media (max-width: 1000px) {
 
@@ -725,6 +721,7 @@ body {
 }
 
 @media (max-width: 800px) {
+
 .header__logo {
   margin-left: 2%;
 }
@@ -758,7 +755,6 @@ body {
 
 .section1__container-racing {
   background: url(image/racing_768.png) no-repeat center left;
-  
 }
 
 .section1__container-power-reserve {
@@ -771,12 +767,10 @@ body {
 
 .section1__container-racing p {
   padding-left: 85px;
-  
 }
 
 .section1__container-power-reserve p {
   padding-left: 55px;
-  
 }
 
 .section1__container-test-drive p,
@@ -796,15 +790,12 @@ body {
   line-height: 55px;
 }
 
-
 .section1__container-test-drive p {
   padding: 13px 0 10px 50px;
   margin: 0;
   color: #e51937;
   text-transform: uppercase;
 }
-
-
 
 .section1__container-button {
   color: #fff;
@@ -863,16 +854,16 @@ body {
   padding: 18px 0 10px 45px;
 }
 
-.section3__wrapper-right{
+.section3__wrapper-right {
   margin-right: 3%;
 }
 
-.section3__title-rating{
-margin-bottom: 12px;
+.section3__title-rating {
+  margin-bottom: 12px;
 }
 
-
 @media (max-width: 766px) {
+
 .section2__title-left,
 .section2__container-ipad-right,
 .section3__wrapper-right,
@@ -881,13 +872,9 @@ margin-bottom: 12px;
   display: none;
 }
 
-
-
 .section2__right {
-    padding: 15px 7% 40px;
+  padding: 15px 7% 40px;
 }
-
-
 
 .section2__container-ipad{
   height: auto;
@@ -899,15 +886,13 @@ margin-bottom: 12px;
 }
 
 .section2__title {
-    margin: 0 0 10px;
+  margin: 0 0 10px;
 }
 .section2 {
   background: url(image/2013-tesla-model-s-cockpit_768.png) no-repeat left center;
   padding-top: 330px;
   background-size: 100%;
 }
-
-
 
 .section1__container-test-drive p,
 .section1__container-button {
@@ -916,8 +901,8 @@ margin-bottom: 12px;
 }
 
 .section1__container-test-drive p {
-    padding: 5px 0 3px 30px;
-  }
+  padding: 5px 0 3px 30px;
+}
 
 .section1__container-button {
   padding: 10px 40px;
@@ -928,11 +913,6 @@ margin-bottom: 12px;
   background: url(image/test-drive_375.png) no-repeat center left;
   margin: 0;
 }
-
-
-
-
-
 
 .section1__container-racing{
   margin: 0 0 0 10px;
@@ -945,41 +925,23 @@ margin-bottom: 12px;
   padding-right: 0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .section3__center-image {
   right: -30px;
 }
 
-
 .section3__center-1 {
   right: 235px;
-  
 }
 
 .section3__center-2 {
-  
   right: 415px;
-  
 }
 
 .section3__center-3 {
-  
   right: 105px;
-  
+}
 }
 
-
-}
 @media (max-width: 670px) {
 
 .header {
@@ -993,16 +955,17 @@ margin-bottom: 12px;
   width: 138px;
   margin: 0;
   height: 42px;
-
 }
 
 .section1 {
   background: none; 
   padding-top: 35px;
 }
+
 .section1__title {
   font-size: 50px;
 }
+
 .section1__subtitle {
   font-size: 10px;
   line-height: 12px;
@@ -1012,13 +975,12 @@ margin-bottom: 12px;
 .section1__image{
   background: url(image/tesla-png-tesla-png-hd-1636_375.png) no-repeat bottom,
               url(image/Tesla-Wordmark-Red_375.svg) no-repeat top;
-   height: 210px;
+  height: 210px;
 }
 
 .section1__arrow {
-    margin-bottom: 0;
-  }
-
+  margin-bottom: 0;
+}
 
 .section1__container {
   height: 170px;
@@ -1027,11 +989,10 @@ margin-bottom: 12px;
 
 .section1__container-racing p {
   padding-left: 50px;
-
 }
 
 .section1__container-power-reserve p {
-    padding-left: 35px;
+  padding-left: 35px;
 }
 
 .section1__container-info span {
@@ -1047,10 +1008,7 @@ margin-bottom: 12px;
 .section1__container-info-add {
   font-size: 10px;
   line-height: 12px;
-  
 }
-
-
 
 .section1__container-racing {
   background: url(image/racing_375.png) no-repeat center left;
@@ -1067,18 +1025,9 @@ margin-bottom: 12px;
 }
 
 
-
-
-
-
-
-/*.section3__wrapper{
-  display: block;
-}*/
-
 .section3__wrapper {
-    height: auto;
-   }
+  height: auto;
+}
 
 
 .section3__right{
@@ -1087,15 +1036,12 @@ margin-bottom: 12px;
 
 .section3__right-text{
   width: 110%;
- }
-
-
+}
 
 .section3__right-text {
   margin: 45px 0 150px;
   font-size: 100px;
 }
-
 
 .section3__center-image {
   position: absolute;
@@ -1105,8 +1051,6 @@ margin-bottom: 12px;
   top: 30px;
   right: 15px;
 }
-
-
 
 .section3__center-1,
 .section3__center-2,
@@ -1146,7 +1090,7 @@ margin-bottom: 12px;
   padding: 32px 0 0 7px;
 }
 
-
 .section3__left {
   padding: 20px 8% 41px;
+}
 }
