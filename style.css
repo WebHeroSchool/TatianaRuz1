@@ -969,8 +969,7 @@ body {
   }
 
   .section1__image {
-    background: url(image/tesla-png-tesla-png-hd-1636_375.png) no-repeat bottom,
-                url(image/Tesla-Wordmark-Red_375.svg) no-repeat top;
+    background: url(image/tesla-png-tesla-png-hd-1636_375.png) no-repeat bottom, url(image/Tesla-Wordmark-Red_375.svg) no-repeat top;
     height: 210px;
   }
 
@@ -1086,4 +1085,5 @@ body {
 
   .section3__left {
     padding: 20px 8% 41px;
-  }}
+  }
+}
