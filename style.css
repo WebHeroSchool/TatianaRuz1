@@ -134,12 +134,12 @@ body {
   padding-right: 40px;
 }
 
-.section1__container-power-reserve {
+.section1__container-powerreserve {
   background: url(image/power-reserve.png) no-repeat center left;
   padding-right: 60px;
 }
 
-.section1__container-test-drive {
+.section1__container-testdrive {
   background: url(image/test-drive.png) no-repeat center left;
 }
 
@@ -148,12 +148,12 @@ body {
   margin: 0;
 }
 
-.section1__container-power-reserve p {
+.section1__container-powerreserve p {
   padding-left: 42px;
   margin: 0;
 }
 
-.section1__container-test-drive p,
+.section1__container-testdrive p,
 .section1__container-button,
 .section2__container-info p,
 .section2__container-button,
@@ -164,7 +164,7 @@ body {
   line-height: 16px;
 }
 
-.section1__container-test-drive p {
+.section1__container-testdrive p {
   padding: 13px 0 10px 29px;
   margin: 0;
   text-transform: uppercase;
@@ -521,7 +521,7 @@ body {
     order: 0;
   }
 
-  .section3__right-img, 
+  .section3__right-img,
   .section3__stars {
     display: none;
   }
@@ -648,15 +648,15 @@ body {
     padding-right: 3%;
   }
 
-  .section1__container-power-reserve {
+  .section1__container-powerreserve {
     background: url(image/power-reserve.png) no-repeat center left;
     padding-right: 5%;
   }
 
   .section2__title-left {
-     background: url(image/2013-tesla-model-s-cockpit_768.png) no-repeat left bottom;
-     height: 600px;
-     background-size: 100%;
+    background: url(image/2013-tesla-model-s-cockpit_768.png) no-repeat left bottom;
+    height: 600px;
+    background-size: 100%;
   }
 }
 
@@ -729,17 +729,17 @@ body {
   }
 
   .section1__container-racing,
-  .section1__container-power-reserve {
+  .section1__container-powerreserve {
     margin: 0 0 60px;
     padding-right: 0;
   }
 
-  .section1__container-power-reserve {
+  .section1__container-powerreserve {
     align-self: flex-end;
     padding-right: 10px;
   }
 
-  .section1__container-test-drive {
+  .section1__container-testdrive {
     margin: 0 0 62px 7%;
     padding-right: 0;
   }
@@ -753,11 +753,11 @@ body {
     background: url(image/racing_768.png) no-repeat center left;
   }
 
-  .section1__container-power-reserve {
+  .section1__container-powerreserve {
     background: url(image/power-reserve_768.png) no-repeat center left;
   }
 
-  .section1__container-test-drive {
+  .section1__container-testdrive {
     background: url(image/test-drive_768.png) no-repeat center left;
   }
 
@@ -765,11 +765,11 @@ body {
     padding-left: 85px;
   }
 
-  .section1__container-power-reserve p {
+  .section1__container-powerreserve p {
     padding-left: 55px;
   }
 
-  .section1__container-test-drive p,
+  .section1__container-testdrive p,
   .section1__container-button,
   .section2__container-info p,
   .section2__container-button,
@@ -786,7 +786,7 @@ body {
     line-height: 55px;
   }
 
-  .section1__container-test-drive p {
+  .section1__container-testdrive p {
     padding: 13px 0 10px 50px;
     margin: 0;
     color: #e51937;
@@ -891,13 +891,13 @@ body {
     background-size: 100%;
   }
 
-  .section1__container-test-drive p,
+  .section1__container-testdrive p,
   .section1__container-button {
     font-size: 13px;
     line-height: 16px;
   }
 
-  .section1__container-test-drive p {
+  .section1__container-testdrive p {
     padding: 5px 0 3px 30px;
   }
 
@@ -906,7 +906,7 @@ body {
     margin: 0;
   }
 
-  .section1__container-test-drive {
+  .section1__container-testdrive {
     background: url(image/test-drive_375.png) no-repeat center left;
     margin: 0;
   }
@@ -916,9 +916,9 @@ body {
     padding-right: 0;
   }
 
-  .section1__container-power-reserve {
+  .section1__container-powerreserve {
     margin: 0 20px 0 0;
-     align-self: auto;
+    align-self: auto;
     padding-right: 0;
   }
 
@@ -954,7 +954,7 @@ body {
   }
 
   .section1 {
-    background: none; 
+    background: none;
     padding-top: 35px;
   }
 
@@ -987,7 +987,7 @@ body {
     padding-left: 50px;
   }
 
-  .section1__container-power-reserve p {
+  .section1__container-powerreserve p {
     padding-left: 35px;
   }
 
@@ -1010,7 +1010,7 @@ body {
     background: url(image/racing_375.png) no-repeat center left;
   }
 
-  .section1__container-power-reserve {
+  .section1__container-powerreserve {
     background: url(image/power-reserve_375.png) no-repeat center left;
   }
 
@@ -1024,7 +1024,7 @@ body {
     height: auto;
   }
 
-  .section3__right{
+  .section3__right {
     margin-left: -25px;
   }
 
@@ -1086,5 +1086,4 @@ body {
 
   .section3__left {
     padding: 20px 8% 41px;
-  }
-}
+  }}
