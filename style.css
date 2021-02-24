@@ -861,6 +861,7 @@ body {
 .section3__title-rating {
   margin-bottom: 12px;
 }
+}
 
 @media (max-width: 766px) {
 
@@ -876,18 +877,19 @@ body {
   padding: 15px 7% 40px;
 }
 
-.section2__container-ipad{
+.section2__container-ipad {
   height: auto;
 }
 
 .section2__container-ipad-left,
-.section3__wrapper-left{
+.section3__wrapper-left {
   width: 100%;
 }
 
 .section2__title {
   margin: 0 0 10px;
 }
+
 .section2 {
   background: url(image/2013-tesla-model-s-cockpit_768.png) no-repeat left center;
   padding-top: 330px;
@@ -972,7 +974,7 @@ body {
   margin: 0 0 5px;
 }
 
-.section1__image{
+.section1__image {
   background: url(image/tesla-png-tesla-png-hd-1636_375.png) no-repeat bottom,
               url(image/Tesla-Wordmark-Red_375.svg) no-repeat top;
   height: 210px;
@@ -1024,11 +1026,9 @@ body {
   background-size: 100%;
 }
 
-
 .section3__wrapper {
   height: auto;
 }
-
 
 .section3__right{
   margin-left: -25px;
@@ -1054,7 +1054,7 @@ body {
 
 .section3__center-1,
 .section3__center-2,
-.section3__center-3{
+.section3__center-3 {
   font-weight: 600;
   font-size: 7px;
   line-height: 6px;
@@ -1092,5 +1092,4 @@ body {
 
 .section3__left {
   padding: 20px 8% 41px;
-}
 }
