@@ -748,7 +748,6 @@ body {
 
   .section1__container-button {
     margin: 0 7% 62px 0;
-    padding-right: 0;
     color: #fff;
     background: #e51937;
     text-decoration: none;
@@ -1074,4 +1073,5 @@ body {
   .section3__left {
     padding: 20px 8% 41px;
   }
+
 }
