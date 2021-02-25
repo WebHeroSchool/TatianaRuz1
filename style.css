@@ -737,28 +737,28 @@ body {
   .section1__container-powerreserve {
     align-self: flex-end;
     padding-right: 10px;
+    background: url(image/power-reserve_768.png) no-repeat center left;
   }
 
   .section1__container-testdrive {
     margin: 0 0 62px 7%;
     padding-right: 0;
+    background: url(image/test-drive_768.png) no-repeat center left;
   }
 
   .section1__container-button {
     margin: 0 7% 62px 0;
     padding-right: 0;
+    color: #fff;
+    background: #e51937;
+    text-decoration: none;
+    padding: 15px 65px;
+    border: 2px solid #e51937;
+    text-transform: uppercase;
   }
 
   .section1__container-racing {
     background: url(image/racing_768.png) no-repeat center left;
-  }
-
-  .section1__container-powerreserve {
-    background: url(image/power-reserve_768.png) no-repeat center left;
-  }
-
-  .section1__container-testdrive {
-    background: url(image/test-drive_768.png) no-repeat center left;
   }
 
   .section1__container-racing p {
@@ -790,15 +790,6 @@ body {
     padding: 13px 0 10px 50px;
     margin: 0;
     color: #e51937;
-    text-transform: uppercase;
-  }
-
-  .section1__container-button {
-    color: #fff;
-    background: #e51937;
-    text-decoration: none;
-    padding: 15px 65px;
-    border: 2px solid #e51937;
     text-transform: uppercase;
   }
 
@@ -1029,9 +1020,6 @@ body {
 
   .section3__right-text {
     width: 110%;
-  }
-
-  .section3__right-text {
     margin: 45px 0 150px;
     font-size: 100px;
   }
