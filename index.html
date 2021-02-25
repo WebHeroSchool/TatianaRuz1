@@ -7,82 +7,77 @@
 	<title>Tesla</title>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="fonts.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet"> <!-- шрифт специально для слов где не рендерится-->
 </head>
 
 <body>
+	
 	<header class="header">
-		<div class="header__logo">
-			<!--тут скорее всего будет логотип background-->
-		</div>
-		<nav class="menu">
-			<a class="menu__item" href="">Model S</a>
-			<a class="menu__item" href="">Model X</a>
-			<a class="menu__item" href="">Model 3</a>
-			<a class="menu__item" href="">Roadster</a>
-			<a class="menu__item" href="">Energy</a>
-		</nav>
-		<div>
-			<a href="">Магазин</a>
-			<a href="">Войти</a>
-			<div class="hamburger-menu">
-				<!-- тут будет знак бургер-меню-->
+  		<div class="wrapper">
+			<div class="header__logo">
 			</div>
-		</div>
+			<nav class="menu">
+	       		<a class="menu__item menu__item1" href="">Model S</a>
+				<a class="menu__item menu__item2" href="">Model X</a>
+				<a class="menu__item menu__item3" href="">Model 3</a>
+				<a class="menu__item menu__item4" href="">Roadster</a>
+				<a class="menu__item" href="">Energy</a>
+    		</nav>
+    		<div class="menu-add">
+				<a class="menu__item-add" href="">Магазин</a>
+				<a class="menu__item-add" href="">Войти</a>
+			</div>
+  		</div>
 	</header>
 
 	<section class="section1">
-		<!--тут скорее всего будет логотип background-->
 		<h1 class="section1__title">Model S</h1>
 		<p class="section1__subtitle">Добро пожаловать в будущее!</p>
 		<div class="section1__image">
-			<!--тут будет машинка background или лучше встатить через img?-->
 		</div>
 		<div class="section1__container">
 			<div class="section1__container-racing">
-				<!--тут будет картинка через background-->
-				<p><span>2,7 </span>сек</p>
-				<p>0-100 км/час</p>
+				<p class="section1__container-info"><span>2,7 </span>сек</p>
+				<p class="section1__container-info-add">0-100 км/час</p>
 			</div>
-			<div class="section1__container-power-reserve">
-				<!--тут будет картинка через background-->
-				<p><span>632 </span>км</p>
-				<p>запас хода</p>
+			<div class="section1__container-powerreserve">
+				<p class="section1__container-info"><span>632 </span>км</p>
+				<p class="section1__container-info-add">запас хода</p>
 			</div>
-			<div class="section1__container-test-drive">
-				<!--тут будет картинка через background-->
-				<p>Тест драйв</p>
+			<div class="section1__container-testdrive">
+				<p>ТЕСТ ДРАЙВ</p>
 			</div>
-			<a class="section1__container-button" href="">Заказать</a>
+			<a class="section1__container-button" href="">ЗАКАЗАТЬ</a>
 		</div>
 		<div class="section1__arrow">
-			<!--тут будет стрелочка через background-->
 		</div>
 	</section>
 
 	<section class="section2">
-		<!--тут будет руль background-->
 		<h2 class="section2__title-left">Model S</h2>
-		<div>
-			<h3 class="section2__title">Будущее вождения</h3>
-			<p class="section2__subtitle">Модель S обладает лучшей в&nbsp;своем классе вместимостью: в&nbsp;машине поместится до&nbsp;пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со&nbsp;студией звукозаписи, а&nbsp;стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
-			<div class="section2__display">
-				<!--тут будет картинка через background-->
-				<p class="section2__display-size"><span class="section2__display-size-span">17 </span>дюймов</p>
-				<p class="section2__display-size-what">Большой дисплей</p>
-			</div>
-			<div class="section2__software">
-				<!--тут будет картинка через background-->
-				<p class="section2__software-renewal">Беспроводное обновление ПО</p>
-				<p class="section2__software-up">Повышенная функциональность</p>
-			</div>
-			<div class="section2__capacity">
-				<!--тут будет картинка через background-->
-				<p class="section2__capacity-size"><span class="section2__capacity-size-span">894 </span>литра</p>
-				<p class="section2__capacity-size-what">Объем грузового пространства</p>
+		<div class="section2__right">
+			<div class="section2__container-ipad">
+				<div class="section2__container-ipad-left">
+					<h3 class="section2__title">Будущее вождения</h3>
+					<p class="section2__subtitle">Модель S обладает лучшей в&nbsp;своем классе вместимостью: в&nbsp;машине поместится до&nbsp;пяти взрослых и двух детей. Оснащена современным 17&nbsp;-&nbsp;дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со&nbsp;студией звукозаписи, а&nbsp;стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
+				</div>	
+				<div class="section2__container-ipad-right">
+					<div class="section2__display">
+						<p class="section2__text-info"><span>17 </span>дюймов</p>
+						<p class="section2__text-info-add">Большой дисплей</p>
+					</div>
+					<div class="section2__software">
+						<p class="section2__text-soft">Беспроводное обновление ПО</p>
+						<p class="section2__text-info-add">Повышенная<br/>функциональность</p>
+					</div>
+					<div class="section2__capacity">
+						<p class="section2__text-info"><span>894 </span>литра</p>
+						<p class="section2__text-info-add">Объем грузового<br/>пространства</p>
+					</div>
+				</div>
 			</div>
 			<div class="section2__container">
 				<div class="section2__container-info">
-					<!--тут будет картинка через background-->
 					<p>УЗНАТЬ БОЛЬШЕ</p>
 				</div>
 				<a class="section2__container-button" href="">Заказать</a>
@@ -91,45 +86,57 @@
 	</section>
 
 	<section class="section3">
-		<!--тут будет картинка через background -->
-		<div>
-			<h4 class="section3__title">Самый безопасный автомобиль в мире</h4>
-			<p class="section3__subtitle">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по&nbsp;наименьшей вероятности травмы пассажиров - от&nbsp;несчастных случаев на&nbsp;переднем, боковом, заднем сидении и в&nbsp;ДТП с&nbsp;переворотом авто.</p>
-			<h4 class="section3__title">Оценка защиты:</h4>
-			<div class="section3__rating">
-				<!--тут будет картинка через background-->
-				<p>Спереди</p>
-			</div>
-			<div class="section3__rating">
-				<!--тут будет картинка через background-->
-				<p>Сбоку</p>
-			</div>
-			<div class="section3__rating">
-				<!--тут будет картинка через background-->
-				<p>Сбоку<span class="section3__rating-rectification">(стойка)</span></p>
-			</div>
-			<div class="section3__rating">
-				<!--тут будет картинка через background-->
-				<p>ВОДИТЕЛЬ</p>
-			</div>
-			<div class="section3__rating">
-				<!--тут будет картинка через background-->
-				<p>ПАССАЖИР</p>
-			</div>
-			<div class="section3__stars">
-				<!--тут будет картинка через background-->
-				<p class="section3__stars-text"><span class="section3__stars-text-span">5 звезд</span>безопасности</p>
+		<div class="section3__right">
+			<p class="section3__right-text">Model S</p>
+			<img class="section3__right-img" src="image/whs.png" alt="">
+		</div>
+		<div class="section3__left">
+			<div class="section3__wrapper">
+				<div class="section3__wrapper-left">
+					<h4 class="section3__title">Самый безопасный автомобиль в мире</h4>
+					<p class="section3__subtitle">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по&nbsp;наименьшей вероятности травмы пассажиров - от&nbsp;несчастных случаев на&nbsp;переднем, боковом, заднем сидении и в&nbsp;ДТП с&nbsp;переворотом авто.</p>
+				</div>
+				<div class="section3__wrapper-right">
+					<h4 class="section3__title-rating">Оценка защиты:</h4>
+					<table class="section3__rating">
+			  			<tr>
+			    			<td class="section3__rating-text">СПЕРЕДИ</td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td>
+			  			</tr>
+			  			<tr>
+			    			<td class="section3__rating-text">СБОКУ</td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td>
+			  			</tr>
+			  			<tr>
+			   				<td class="section3__rating-text">СБОКУ<span>(СТОЙКА)</span></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td>
+			  			</tr>
+			  			<tr>
+			    			<td class="section3__rating-text">ВОДИТЕЛЬ</td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td>
+			  			</tr>
+			  			<tr>
+			    			<td class="section3__rating-text">ПАССАЖИР</td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td><td class="section3__img"></td>
+			  			</tr>
+		  			</table>
+	  			</div>
+				<div class="section3__stars">
+					<p class="section3__stars-text"><span>5 звезд </span>безопасности</p>
+				</div>
 			</div>
 			<div class="section3__container">
 				<div class="section3__container-info">
-					<!--тут будет картинка через background-->
 					<p>УЗНАТЬ БОЛЬШЕ</p>
 				</div>
-				<a class="section3__container-button" href="">Заказать</a>
+				<a class="section3__container-button" href="">ЗАКАЗАТЬ</a>
 			</div>
 		</div>
-		<div>
-			<!--тут машинка будет либо через background либо картинкой, пока не решила)-->
+		<div class="section3__center-image">
+		</div>
+		<div class="section3__center-1">
+			Защита от удара сбоку
+		</div>
+		<div class="section3__center-2">
+			Защита от удара спереди
+		</div>
+		<div class="section3__center-3">
+			Минимальный риск перевернуться в аварии
 		</div>
 	</section>
 
