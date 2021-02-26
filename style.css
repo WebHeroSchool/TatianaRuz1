@@ -523,13 +523,13 @@ body {
   .menu__item1,
   .menu__item2,
   .menu__item3,
-  .menu__item4{
+  .menu__item4 {
     margin-right: 1%;
   }
 
   .section2 {
     background: url(image/2013-tesla-model-s-cockpit_768.png) no-repeat left bottom;
-    background-size: 80%
+    background-size: 80%;
   }
 
   .section2__subtitle {
@@ -628,7 +628,7 @@ body {
 
   .section3__stars {
     padding-left: 75px;
-    margin: 0 0 75px 0px;
+    margin: 0 0 75px 0;
   }
 
   .section3__stars-text span {
@@ -640,9 +640,10 @@ body {
     font-size: 22px;
     line-height: 25px;
   }
+
  .section3__right-text {
     font-size: 140px;
-  } 
+  }
 }
 
 @media (max-width: 1023px) {
@@ -864,7 +865,6 @@ body {
   .section1__arrow {
     height: 16px;
   }
-
 
   .section2__title-left {
     height: 525px;
@@ -1166,12 +1166,12 @@ body {
   }
 
   .section1__container-powerreserve p {
-      padding-left: 25px;
+    padding-left: 25px;
   }
 
   .section1__container-info span {
-      font-size: 20px;
-      line-height: 25px;
+    font-size: 20px;
+     line-height: 25px;
   }
 
   .section1__container-testdrive {
@@ -1191,29 +1191,29 @@ body {
 
   .section2__title,
   .section3__title {
-      font-size: 20px;
-      line-height: 25px;
+    font-size: 20px;
+    line-height: 25px;
   }
 
   .section1__subtitle,
   .section2__subtitle,
   .section3__subtitle {
-      font-size: 12px;
-      line-height: 15px;
+    font-size: 12px;
+    line-height: 15px;
   }
 
   .section2__right,
   .section3__left {
-      padding: 10px 7% 10px;
+    padding: 10px 7% 10px;
   }
 
 
   .section3__subtitle {
-      padding: 11px 0 10px;
+    padding: 11px 0 10px;
   }
 
   .section3__right {
-      margin-left: 0;
+    margin-left: 0;
   }
 
   .section3__right-text {
